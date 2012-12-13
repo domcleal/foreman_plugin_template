@@ -1,22 +1,23 @@
 # Ensure that module is namespaced with plugin name
 module ForemanPluginTemplate
-	module HostExtensions
-		extend ActiveSupport::Concern
+	# Example: Create new instance and class methods on Foreman's Host model
+	# module HostExtensions
+	# 	extend ActiveSupport::Concern
 
-		included do
-		#  some_class_method
-		end
+	# 	included do
+	# 	#  some_class_method
+	# 	end
 
-	    module ClassMethods
-		  # ...
-		end
+	#     module ClassMethods
+	# 	  # ...
+	# 	end
 
-		module InstanceMethods
-		  # ...
-		  def new_instance_method
-		    #
-		  end
-		  # or overwrite existing method
-		end
-	end
+	# 	module InstanceMethods
+	# 	  # ...
+	# 	  def new_instance_method
+	# 	    #
+	# 	  end
+	# 	  # or overwrite existing method
+	# 	end
+	# end
 end
