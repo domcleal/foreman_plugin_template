@@ -5,7 +5,10 @@ module ForemanPluginTemplate
 	# 	extend ActiveSupport::Concern
 
 	# 	included do
-	# 	#  some_class_method
+		  #after_ready_for_build :do_something_special_after_build
+		  #def do_something_special_after_build
+		  #   p "doing customized callback something special AFTER build"
+		  #end
 	# 	end
 
 	#     module ClassMethods
