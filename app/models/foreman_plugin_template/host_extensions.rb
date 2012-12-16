@@ -5,6 +5,11 @@ module ForemanPluginTemplate
 	# 	extend ActiveSupport::Concern
 
 	# 	included do
+		  #execute standard callbacks
+		  #after_create :do_this
+		  #after_destroy :do_that
+
+		  #execute custom hooks
 		  #after_ready_for_build :do_something_special_after_build
 		  #def do_something_special_after_build
 		  #   p "doing customized callback something special AFTER build"
