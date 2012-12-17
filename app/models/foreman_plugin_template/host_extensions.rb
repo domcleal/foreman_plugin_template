@@ -10,10 +10,15 @@ module ForemanPluginTemplate
 		  #after_destroy :do_that
 
 		  #execute custom hooks
-		  #after_ready_for_build :do_something_special_after_build
+		  #after_build :do_something_special_after_build
+          #before_provision :do_this_before_provision
 		  #def do_something_special_after_build
 		  #   p "doing customized callback something special AFTER build"
 		  #end
+		  #def do_this_before_provision
+		  #	p "doing this before provision"
+		  #end
+
 	# 	end
 
 	#     module ClassMethods
