@@ -29,7 +29,7 @@ Gem::Specification.new do |s|
     "lib/foreman_plugin_template.rb"
   ]
   s.homepage = "http://github.com/isratrade/foreman_plugin_template"
-  s.licenses = ["MIT"]
+  s.licenses = ["GPL-3"]
   s.require_paths = ["lib"]
   s.rubygems_version = "1.8.24"
   s.summary = "Plugin engine for Foreman"
